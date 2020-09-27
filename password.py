@@ -1,6 +1,6 @@
 password = '123456'
 i = 3
-while True:
+while i > 0:
 	pwd = input('password:')
 	if pwd == password:
 		print('success')
@@ -8,5 +8,4 @@ while True:
 	else:
 		i = i - 1
 		print('Error' , i, 'chances left')
-		if i == 0:
-			break
+		
